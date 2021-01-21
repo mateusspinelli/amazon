@@ -1,0 +1,73 @@
+$cor1: #131921;
+$cor2: #cd9042;
+
+.header{
+    background-color: $cor1;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.header__opcoesCarrinho{
+    display: flex;
+    align-items: center;
+}
+
+.header__carrinhoContador{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__opcoes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__opcoesL1{
+    font-size: 10px;
+}
+
+.header__opcoesL2{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__link{
+    color: white;
+    text-decoration: none;
+}
+
+.header__busca{
+    display: flex;
+    flex: 1;
+}
+
+.header__buscaInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__buscaIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: $cor2;
+}
