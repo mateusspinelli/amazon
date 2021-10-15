@@ -1,0 +1,26 @@
+.carrinho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carrinho__titulo {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.carrinho__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=Carrinho.css.map */

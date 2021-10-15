@@ -1,0 +1,57 @@
+.pagamento {
+  background-color: white;
+}
+
+.pagamento__container {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+.pagamento__container > h1 a {
+  text-decoration: none;
+}
+
+.pagamento__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.pagamento__titulo {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+.pagamento__endereco, .pagamento__itens, .pagamento__detalhes {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+.pagamento__detalhes > form {
+  max-width: 400px;
+}
+
+.pagamento__detalhes > h3 {
+  padding-bottom: 20px;
+}
+
+.pagamento__detalhes > form > div > button {
+  background: #f0c13b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  font-weight: bolder;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111111;
+}
+/*# sourceMappingURL=Pagamento.css.map */
